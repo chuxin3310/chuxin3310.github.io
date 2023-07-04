@@ -4,25 +4,20 @@ title = 'PK'
 languageCode = "zh-tw"
 theme = "PaperMod"
 buildDrafts = false 
+
 [[menu.main]]
-
 identifier = "tags"
-
 name = "tags"
-
 url = "/tags/"
-
 weight = 10
 
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
 
 
-
-
-title: "mySecondPost"
-date: date
-draft: false
-tags: ["code","test"]
-categories: ["Markdown"]
 
 [params.profileMode]
 enabled = true
