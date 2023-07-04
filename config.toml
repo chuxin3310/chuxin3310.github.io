@@ -27,7 +27,7 @@ weight = 20
 enabled = true
 title = "chuxin"
 subtitle = "chunithm、Phigros..."
-imageUrl = "C:\Users\user\Pictures\Camera Roll\image.jfif"
+imageUrl = "static/img/ouo.jpg"
 imageHeight = 120
 imageTitle = "waifu"
 
