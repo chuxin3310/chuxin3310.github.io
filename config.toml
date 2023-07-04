@@ -30,7 +30,7 @@ subtitle = "chunithm、Phigros..."
 imageUrl = "img/ouo.jpg"
 imageHeight = 100
 imageTitle = "waifu"
-<img src="img/ouo.jpg" width="200" height="200" />
+![drawing](ouo.jpg){ width=50% }
 
 	
 [[params.profileMode.buttons]]
