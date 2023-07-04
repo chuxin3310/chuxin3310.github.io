@@ -30,7 +30,6 @@ subtitle = "c++、zerojudge..."
 imageUrl = "img/ouo.jpg"
 imageWidth =120 # custom size
 imageHeight = 120 # custom size
-imageHeight = 100
 imageTitle = "waifu"
 	
 [[params.profileMode.buttons]]
