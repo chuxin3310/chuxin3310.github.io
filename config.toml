@@ -1,5 +1,5 @@
 title = 'PK'
-baseurl = "https://chuxin3310.github.io 
+baseurl = "https://chuxin3310.github.io"
 languageCode = "zh-tw"
 theme = "PaperMod"
 buildDrafts = false 
@@ -43,6 +43,15 @@ categories: ["Markdown"]
 enabled = true
 title = "URIDIOT"
 subtitle = "UR"
-imageUrl = "
+imageUrl = ""
 imageHeight = 120
 imageTitle = "ur"
+
+	
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+ 
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
