@@ -43,7 +43,9 @@ url = "/categories/"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://chuxin3310.github.io"
+url = "https://chuxin3310.github.com"
+
+[[params.socialIcons]]
 name = "facebook"
 url = "https://www.facebook.com/profile.php?id=100068352667542"
 
