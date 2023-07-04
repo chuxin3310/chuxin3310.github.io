@@ -42,11 +42,15 @@ url = "/categories/"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://chuxin3310.github.com"
+url = "https://github.com/chuxin3310"
 
 [[params.socialIcons]]
 name = "facebook"
 url = "https://www.facebook.com/profile.php?id=100068352667542"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://youtube.com/@Cx_
 
 [params] 
 ShowBreadCrumbs = true    
