@@ -27,7 +27,7 @@ weight = 20
 enabled = true
 title = "chuxin"
 subtitle = "chunithm、Phigros..."
-imageUrl = "static/img/ouo.jpg"
+imageUrl = "img/ouo.jpg"
 imageHeight = 120
 imageTitle = "waifu"
 
