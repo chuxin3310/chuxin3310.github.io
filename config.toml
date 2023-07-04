@@ -25,8 +25,8 @@ weight = 20
 
 [params.profileMode]
 enabled = true
-title = "URIDIOT"
-subtitle = "UR"
+title = "chuxinの音ゲ天地"
+subtitle = "chunithm、Phigros..."
 imageUrl = "https://drive.google.com/file/d/17QHNsEvFfWTc7lb9ao772M2tKHax30Yc/view?usp=drivesdk"
 imageHeight = 120
 imageTitle = "ur"
