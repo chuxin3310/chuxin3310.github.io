@@ -35,3 +35,39 @@ url = "/posts/"
 [[params.profileMode.buttons]]
 name = "Categories"
 url = "/categories/"
+
+[params.profileMode]
+enabled = true
+title = "Enter the Content"
+subtitle = "Enter the Content"
+imageUrl = "img/name.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "github"
+url = "your github profile url"
+#...more
+
+[params] 
+ShowBreadCrumbs = true    
+#展示文章所在目錄
+ShowReadingTime = true    
+#展示閱讀時間
+ShowShareButtons = true    
+#展示分享按鈕
+ShowPostNavLinks = true    
+#本地其他文章連結
+
+[params.cover]
+linkFullImages = true    
+#點擊圖片後以全螢幕檢視
