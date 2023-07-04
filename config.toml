@@ -38,7 +38,7 @@ url = "/categories/"
 
 [[params.socialIcons]]
 name = "github"
-url = "your github profile url"
+url = "https://chuxin3310.github.io"
 #...more
 
 [params] 
