@@ -1,5 +1,5 @@
 baseURL = 'https://chuxin3310.github.io'
-title = 'chuxinnoblog' 
+title = 'chuxin's blog' 
 
 languageCode = "zh-tw"
 theme = "PaperMod"
@@ -33,7 +33,7 @@ imageTitle = "waifu"
 
 	
 [[params.profileMode.buttons]]
-name = "Blogs"
+name = "Blog"
 url = "/posts/"
 
 [[params.profileMode.buttons]]
