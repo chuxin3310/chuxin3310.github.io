@@ -6,9 +6,9 @@ theme = "PaperMod"
 buildDrafts = false 
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
+identifier = "meaningless_posts"
+name = "meaningless_posts"
+url = "/meaningless_posts/"
 weight = 10
 
 [[menu.main]]
