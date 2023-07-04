@@ -1,4 +1,4 @@
-title = 'A Site De La Rue'
+title = 'PK'
 baseurl = "https://chubof.github.io
 languageCode = "zh-tw"
 theme = "PaperMod"
@@ -22,3 +22,13 @@ name = "Categories"
 url = "/categories/"
 
 weight = 20
+
+[[menu.main]]
+
+identifier = "archives"
+
+name = "Archives"
+
+url = "/archives/"
+
+weight = 30
