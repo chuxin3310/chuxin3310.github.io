@@ -28,8 +28,8 @@ enabled = true
 title = "chuxin"
 subtitle = "chunithm、Phigros..."
 imageUrl = "img/ouo.jpg"
-imageWidth: 120 # custom size
-imageHeight: 120 # custom size
+imageWidth =120 # custom size
+imageHeight = 120 # custom size
 imageHeight = 100
 imageTitle = "waifu"
 	
