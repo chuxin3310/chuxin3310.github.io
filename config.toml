@@ -33,7 +33,7 @@ imageTitle = "waifu"
 
 	
 [[params.profileMode.buttons]]
-name = "Blog"
+name = "Blogs"
 url = "/posts/"
 
 [[params.profileMode.buttons]]
