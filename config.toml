@@ -32,12 +32,6 @@ imageTitle = "ur"
 name = "Blog"
 url = "/posts/"
 
-
-
-[[params.profileMode.buttons]]
-name = "Blog"
-url = "/posts/"
-
 [[params.profileMode.buttons]]
 name = "Categories"
 url = "/categories/"
