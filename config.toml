@@ -30,8 +30,6 @@ subtitle = "chunithm、Phigros..."
 imageUrl = "img/ouo.jpg"
 imageHeight = 100
 imageTitle = "waifu"
-[ouo]: img/ouo.png{: height="100px" width="100px"}
-
 	
 [[params.profileMode.buttons]]
 name = "Blog"
