@@ -1,3 +1,3 @@
-YO M                           O                              M IS
-SO
+YO M                           O                              M IS  
+SO  
 FAT!  
