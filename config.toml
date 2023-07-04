@@ -25,7 +25,7 @@ weight = 20
 
 [params.profileMode]
 enabled = true
-title = "chuxinのcoding-area"
+title = "chuxin"
 subtitle = "chunithm、Phigros..."
 imageUrl = "C:\Users\user\Pictures\Camera Roll\image.jfif"
 imageHeight = 120
