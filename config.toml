@@ -29,7 +29,7 @@ title = "chuxin"
 subtitle = "chunithm、Phigros..."
 imageUrl = "img/ouo.jpg"
 imageHeight = 100
-![](img/ouo.jpg =250x250)
+![ouo]("img/ouo.jpg" =250x250)
 imageTitle = "waifu"
 	
 [[params.profileMode.buttons]]
