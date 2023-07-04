@@ -1,5 +1,5 @@
 title = 'PK'
-baseurl = "https://chuxin3310.github.io"
+baseURL = "https://chuxin3310.github.io"
 languageCode = "zh-tw"
 theme = "PaperMod"
 buildDrafts = false 
