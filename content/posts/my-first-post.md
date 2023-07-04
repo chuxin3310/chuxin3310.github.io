@@ -9,4 +9,17 @@ draft: false
 
 # _yabi！_  
 
-##  _**yabi！**_    
+##  _**yabi！**_   
+
+> what
+
+- ok
+* how
+---
+`markdown`
+
+```markdown = 
+#byebye world
+```
+* [X] uhh!
+- [ ] bof.
