@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-	
+title = 'A Site De La Rue'
+baseurl = "https://chubof.github.io
+languageCode = "zh-tw"
 theme = "PaperMod"
+buildDrafts = false 
