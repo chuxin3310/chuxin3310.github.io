@@ -17,7 +17,11 @@ name = "Categories"
 url = "/categories/"
 weight = 20
 
-
+[[menu.main]]
+ identifier = "archives"
+ name = "Archives"
+ url = "/archives/"
+ weight = 30
 
 [params.profileMode]
 enabled = true
