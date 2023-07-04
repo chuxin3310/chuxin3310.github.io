@@ -38,3 +38,11 @@ date: date
 draft: false
 tags: ["code","test"]
 categories: ["Markdown"]
+
+[params.profileMode]
+enabled = true
+title = "URIDIOT"
+subtitle = "UR"
+imageUrl = "
+imageHeight = 120
+imageTitle = "ur"
