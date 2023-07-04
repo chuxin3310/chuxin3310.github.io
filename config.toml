@@ -12,9 +12,9 @@ url = "/tags/"
 weight = 10
 
 [[menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
+identifier = "zerojudge"
+name = "zerojudge"
+url = "/zerojudge/"
 weight = 20
 
 [[menu.main]]
