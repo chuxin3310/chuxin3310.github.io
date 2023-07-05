@@ -14,7 +14,7 @@ weight = 10
 [[menu.main]]
 identifier = "zerojudge"
 name = "zerojudge"
-url = "/posts/"
+url = "/k/"
 weight = 20
 
 [[menu.main]]
