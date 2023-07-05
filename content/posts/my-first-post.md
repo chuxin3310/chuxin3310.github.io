@@ -29,5 +29,5 @@ draft: false
 
  ---
 
-[zerojudge](contect/zerojudge)
+[zerojudge](/../zerojudge)
 
