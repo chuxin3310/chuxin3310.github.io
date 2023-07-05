@@ -14,7 +14,7 @@ weight = 10
 [[menu.main]]
 identifier = "zerojudge"
 name = "zerojudge"
-url = "/posts/zerojudge/"
+url = "/posts/"
 weight = 20
 
 [[menu.main]]
@@ -34,7 +34,7 @@ imageTitle = "waifu"
 	
 [[params.profileMode.buttons]]
 name = "Blog"
-url = "/posts/zerojudge/"
+url = "/posts/"
 
 [[params.profileMode.buttons]]
 name = "Categories"
