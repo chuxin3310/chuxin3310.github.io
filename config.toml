@@ -5,9 +5,6 @@ languageCode = "zh-tw"
 theme = "PaperMod"
 buildDrafts = false 
 
-background-image
-="img/ouo.jpg"
-
 [[menu.main]]
 identifier = "meaningless_posts"
 name = "meaningless_posts"
