@@ -6,15 +6,15 @@ theme = "PaperMod"
 buildDrafts = false 
 
 [[menu.main]]
-identifier = "meaningless_posts"
-name = "meaningless_posts"
-url = "/meaningless_posts/"
+identifier = "tags"
+name = "tags"
+url = "/tags/"
 weight = 10
 
 [[menu.main]]
 identifier = "zerojudge"
 name = "zerojudge"
-url = "/zerojudge/"
+url = "/cata/"
 weight = 20
 
 [[menu.main]]
