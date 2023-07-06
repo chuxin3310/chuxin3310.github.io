@@ -8,7 +8,7 @@ buildDrafts = false
 [[menu.main]]
 identifier = "tags"
 name = "tags"
-url = "/tag/"
+url = "/tags/"
 weight = 10
 
 [[menu.main]]
