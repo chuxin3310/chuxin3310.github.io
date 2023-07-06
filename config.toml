@@ -37,8 +37,8 @@ name = "Blog"
 url = "/posts/"
 
 [[params.profileMode.buttons]]
-name = "Categories"
-url = "/categories/"
+name = "zerojudge"
+url = "/zerojudge/"
 
 [[params.socialIcons]]
 name = "github"
