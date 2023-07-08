@@ -11,17 +11,17 @@ name = "tags"
 url = "/tags/"
 weight = 10
 
-[[menu.main]]
-identifier = "zerojudge"
-name = "zerojudge"
-url = "/zerojudge/"
-weight = 20
 
 [[menu.main]]
  identifier = "archives" 
  name = "Archives"
  url = "/archives/"
  weight = 30
+
+ [[menu.main]]
+name = "ZJ"
+url = "/zerojudge/"
+weight = 40
 
 [params.profileMode]
 enabled = true
