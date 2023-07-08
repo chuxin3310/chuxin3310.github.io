@@ -34,7 +34,7 @@ imageTitle = "waifu"
 	
 [[params.profileMode.buttons]]
 name = "Blog"
-url = "/zerojudge/"
+url = "/posts/"
 
 [[params.profileMode.buttons]]
 name = "zerojudge"
