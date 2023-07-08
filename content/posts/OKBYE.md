@@ -1,9 +1,7 @@
 ---
 title: "G276"
 date: 2023-07-08T15:19:18+08:00
-tags: ["ZJ","tags"]
-categories: ["Markdown"]
-draft: true
+draft: false
 ---
 
 
