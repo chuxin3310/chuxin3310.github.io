@@ -26,10 +26,10 @@ weight = 40
 [params.profileMode]
 enabled = true
 title = "chuxin"
-subtitle = "c++、zerojudge..."
+subtitle = "廢話、zerojudge..."
 imageUrl = "img/ouo.jpg"
-imageWidth =120 # custom size
-imageHeight = 120 # custom size
+imageWidth =120 
+imageHeight = 120 
 imageTitle = "waifu"
 	
 [[params.profileMode.buttons]]
