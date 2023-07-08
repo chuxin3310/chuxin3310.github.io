@@ -32,8 +32,6 @@ imageWidth =120
 imageHeight = 120 
 imageTitle = "waifu"
 	
-    <br>
-    
 [[params.profileMode.buttons]]
 name = "Blog"
 url = "/posts/"
@@ -54,7 +52,7 @@ url = "https://www.facebook.com/profile.php?id=100068352667542"
 name = "youtube"
 url = "https://youtube.com/@Cx_chuxin"
 
-
+url = "https://media.discordapp.net/attachments/702137437589340251/776476578070003763/skadi_dance_discord.gif"
 
 [params] 
 ShowBreadCrumbs = true    
