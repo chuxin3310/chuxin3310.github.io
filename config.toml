@@ -51,6 +51,9 @@ url = "https://www.facebook.com/profile.php?id=100068352667542"
 [[params.socialIcons]]
 name = "youtube"
 url = "https://youtube.com/@Cx_chuxin"
+<br>
+
+url = "/https://media.discordapp.net/attachments/702137437589340251/776476578070003763/skadi_dance_discord.gif/"
 
 [params] 
 ShowBreadCrumbs = true    
