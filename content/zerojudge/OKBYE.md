@@ -3,7 +3,7 @@ title: "G276"
 date: 2023-07-08T15:19:18+08:00
 draft: false
 ---
-
+## code：
 
 ```
 #include<bits/stdc++.h>
