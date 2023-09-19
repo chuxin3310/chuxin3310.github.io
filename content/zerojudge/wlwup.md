@@ -9,7 +9,7 @@ summary: WLOJ 1013
 ```
 #include <bits/stdc++.h>
 using namespace std;
-int n,m,ch=1,skip=0;
+int n,m,ch=1,skip=0; 
 int main(){
     cin >> n >> m;
     int ground[n+2][m+2];
