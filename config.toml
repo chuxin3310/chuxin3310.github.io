@@ -26,7 +26,7 @@ weight = 40
 [params.profileMode]
 enabled = true
 title = "chuxin"
-subtitle = "廢話、zerojudge..."
+subtitle = "廢話、zerojudge(曾經)..."
 imageUrl = "img/ouo.jpg"
 imageWidth =120 
 imageHeight = 120 
