@@ -1,0 +1,99 @@
+{{ define "main" }}
+  {{ if .Content }}
+    <div class="index-content {{ if .Params.framed -}}framed{{- end -}}">
+      {{ .Content }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
+    {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
+
+    {{ $PageContext := . }}
+    {{ if .IsHome }}
+      {{ $PageContext = .Site }}
+    {{ end }}
+    {{ $paginator := .Paginate (where $PageContext.RegularPages "Type" $contentTypeName) }}
+
+    {{ range $paginator.Pages }}
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </h2>
+
+        <div class="post-meta">
+          {{- if .Date -}}
+            <time class="post-date">
+              {{- partial "post-date" . -}}
+            </time>
+          {{- end -}}
+          {{- with .Params.Author -}}
+            <span class="post-author">{{ . }}</span>
+          {{- end -}}
+        </div>
+
+        {{ if .Params.tags }}
+          <span class="post-tags">
+            {{ range .Params.tags }}
+            #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+              {{- . -}}
+            </a>&nbsp;
+            {{ end }}
+          </span>
+        {{ end }}
+
+        {{ partial "cover.html" . }}
+
+        {{ if .Params.showFullContent }}
+          <div class="post-content">
+            {{ .Content }}
+          </div>
+        {{ else }}
+          <div class="post-content expandable-content">
+            <div class="summary-text">
+              {{ if .Description }}
+                <p>{{ .Description | markdownify }}</p>
+              {{ else }}
+                {{ .Summary }}
+              {{ end }}
+            </div>
+            <div class="full-text" style="display: none;">
+              {{ .Content }}
+            </div>
+          </div>
+          <div>
+            <button class="read-more-toggle button inline" data-expanded="false">
+              [{{ $.Site.Params.ReadMore }}]
+            </button>
+          </div>
+        {{ end }}
+      </article>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+
+  <script>
+    document.querySelectorAll('.read-more-toggle').forEach(button => {
+      button.addEventListener('click', function() {
+        const post = this.closest('.post');
+        const summary = post.querySelector('.summary-text');
+        const full = post.querySelector('.full-text');
+        const isExpanded = this.getAttribute('data-expanded') === 'true';
+
+        if (isExpanded) {
+          summary.style.display = 'block';
+          full.style.display = 'none';
+          this.textContent = '[{{ $.Site.Params.ReadMore }}]';
+          this.setAttribute('data-expanded', 'false');
+          // 可選：滾動回文章頂部
+          post.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          summary.style.display = 'none';
+          full.style.display = 'block';
+          this.textContent = '[Collapse]';
+          this.setAttribute('data-expanded', 'true');
+        }
+      });
+    });
+  </script>
+{{ end }}

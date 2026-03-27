@@ -15,6 +15,7 @@ paginate = 5
 
   # show "Read more" button in the list
   showReadMore = true
+  ReadMore = "Read More"
 
   # show "Reading time" in the post header
   showReadingTime = true
