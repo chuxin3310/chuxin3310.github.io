@@ -31,14 +31,14 @@ paginate = 5
   # Main menu items
   [[menu.main]]
     identifier = "posts"
-    name = "Blog"
+    name = "Posts"
     url = "/posts/"
     weight = 10
 
   [[menu.main]]
-    identifier = "zerojudge"
-    name = "ZeroJudge"
-    url = "/zerojudge/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 20
 
   [[menu.main]]

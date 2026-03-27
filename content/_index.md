@@ -25,4 +25,4 @@ whoami
 
 ---
 
-[Click here to view my blog](/posts/)
+[Click here to view my posts](/posts/)
