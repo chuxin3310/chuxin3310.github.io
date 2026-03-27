@@ -1,0 +1,40 @@
+<style>
+  /* 強制全域背景與全螢幕寬度 */
+  :root {
+    --background: #1a170f !important;
+    --foreground: #eceae5 !important;
+    --accent: #00ff41 !important;
+  }
+
+  html, body {
+    background-color: #1a170f !important;
+    color: #eceae5 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    background-color: #1a170f !important;
+    border-right: none !important;
+  }
+
+  /* 確保其他元件也是暗色的 */
+  .content, main, header, footer {
+    background-color: transparent !important;
+  }
+
+  /* 修正連結顏色為螢光綠 */
+  a {
+    color: #00ff41 !important;
+  }
+
+  /* 修正選單與標題顏色 */
+  .menu, .logo, .terminal-prompt {
+    background-color: #1a170f !important;
+    color: #00ff41 !important;
+  }
+</style>
